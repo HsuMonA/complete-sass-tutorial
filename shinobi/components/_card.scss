@@ -1,12 +1,16 @@
+// use math package to divide something
+@use 'sass:math';
+
 .card {
     display: block;
     margin: $base-margin;
     padding: $base-padding;
     border: $base-border-thickness solid #ddd;
     box-shadow: $base-box-shadow; 
+    border-radius: math.div($base-border-radius, 4); // to divide the size of the radius by 4
 
     .card-title {
-        font-size: $base-font-size;
+        font-size: $font-size-lg;
         padding-bottom: $base-padding; 
         font-weight: bold;
     }
@@ -19,3 +23,8 @@
     }
 }
 
+// to post messages to terminal, to know the result of calculaions
+// @debug "hello ninjas";
+// @debug math.div(10, 3);
+// @debug math.floor(2.6);
+// @debug math.max(1px, 20px, 15px, 12px);
