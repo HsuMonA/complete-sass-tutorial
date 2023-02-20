@@ -139,19 +139,19 @@ img {
 }
 
 .text-secondary {
-  color: #1ac888;
+  color: indigo;
 }
 
 .text-hover-secondary:hover {
-  color: #1ac888;
+  color: indigo;
 }
 
 .bg-secondary {
-  background-color: #1ac888;
+  background-color: indigo;
 }
 
 .bg-secondary-light-9 {
-  background-color: #e8faf3;
+  background-color: #ede6f3;
 }
 
 .text-error {
@@ -245,14 +245,14 @@ img {
 .card {
   display: block;
   margin: 0.75rem;
-  padding: 0.75rem;
-  border: 1px solid #ddd;
+  padding: 1rem;
+  border: 3px solid #ddd;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
 .card .card-title {
   font-size: 1.5rem;
-  padding-bottom: 0.75rem;
+  padding-bottom: 1rem;
   font-weight: bold;
 }
 .card .card-body {
@@ -267,7 +267,7 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #e2e2e2;
 }
@@ -277,7 +277,7 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #326dee;
 }
@@ -290,7 +290,7 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #326dee;
   color: #fae7bf;
@@ -305,12 +305,12 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
-  background-color: #1ac888;
+  background-color: indigo;
 }
 .btn-secondary:hover {
-  background-color: #1ddf97;
+  background-color: #5a009c;
 }
 
 .btn-outlined-secondary {
@@ -318,13 +318,13 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #fff;
-  border: 1px solid #1ac888;
+  border: 3px solid indigo;
 }
 .btn-outlined-secondary:hover {
-  background-color: #1ac888;
+  background-color: indigo;
 }
 
 .btn-error {
@@ -332,7 +332,7 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #d32752;
 }
@@ -345,7 +345,7 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #f6c31c;
 }
@@ -358,10 +358,10 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #fff;
-  border: 1px solid #ffa600;
+  border: 3px solid #ffa600;
 }
 .btn-outlined-orange:hover {
   background-color: #ffa600;
@@ -372,10 +372,10 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #fff;
-  border: 1px solid #9900ff;
+  border: 3px solid #9900ff;
 }
 .btn-outlined-purple:hover {
   background-color: #9900ff;
@@ -386,7 +386,7 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #9900ff;
   color: #c2ff99;
@@ -405,7 +405,7 @@ img {
 }
 
 .navbar, .navbar-primary {
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
 .navbar .site-title, .navbar-primary .site-title {
@@ -420,19 +420,19 @@ img {
 }
 
 .pt-3 {
-  padding-top: 3rem;
+  padding-top: 4rem;
 }
 
 .pt-4 {
-  padding-top: 4.5rem;
+  padding-top: 6rem;
 }
 
 .pb-3 {
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
 }
 
 .pb-4 {
-  padding-bottom: 4.5rem;
+  padding-bottom: 6rem;
 }
 
 .m-1 {
